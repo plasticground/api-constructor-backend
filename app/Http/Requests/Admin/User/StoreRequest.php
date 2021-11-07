@@ -2,9 +2,9 @@
 
 namespace App\Http\Requests\Admin\User;
 
-use Illuminate\Foundation\Http\FormRequest;
+use App\Http\Requests\JsonRequest;
 
-class StoreRequest extends FormRequest
+class StoreRequest extends JsonRequest
 {
     /**
      * Get the validation rules that apply to the request.
